@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Book</title>
+</head>
+<body>
+    <form action="{{ url_for('edit') }}" method="POST">
+        <label>Movie Name</label>
+        <input name="movie_name" type="text">
+        <label>Email</label>
+        <input name="author" type="text">
+        <label>Phone Number</label>
+        <input name = "number" type = "text">
+        <label>Channel Name</label>
+        <input name="channel_name" type="text">
+        <button type="submit">Add movie</button>
+    </form>
+</body>
+</html>
